@@ -4,6 +4,7 @@ Predict which Tweets are about real disasters and which ones are not
 Project Summary:
 
 NLP is a rapid growing field in machine learning with the ability of a computer to understand, analyze, manipulate, and potentially generate human language. Twitter is one of the powerful communication medium. Twitter sentiment analysis is one of my favorite project, which I have done in this Data science masters course (MSDS600). Twitter has become an important communication channel, especially in times of emergency. One of the advantages of smartphone is, it enables the people to announce the emergency they’re observing in the real-time. Because of these the different agencies like disaster management, news agencies are continuously monitoring twitter for getting the up to date information.
+
 The objective of this project is to Explore and analyze the data using python, libraries and create some visualizations along with the model implementation and predict whether a given tweet is about a real disaster or not. If so, predict a 1. If not, predict a 0.
 
 Data and variables:
