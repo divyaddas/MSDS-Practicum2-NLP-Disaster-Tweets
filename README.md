@@ -7,6 +7,9 @@ NLP is a rapid growing field in machine learning with the ability of a computer 
 
 The objective of this project is to Explore and analyze the data using python, libraries and create some visualizations along with the model implementation and predict whether a given tweet is about a real disaster or not. If so, predict a 1. If not, predict a 0.
 
+![](Picture4.png)
+
+
 # Data and variables:
 
 In this particular Kaggle competition, challenged to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. We’ll have access to a dataset of 10,000 tweets that were hand classified.
@@ -28,7 +31,7 @@ When we usually deal with language modelling, or natural language processing, we
 For exploring the data, I have Created maps/plots using plotly library. Created tweet length plots for top and bottom 20 tweets, retrieved top 20 tweets by word count and bottom 20 tweets by word count as well. Created tweet stopword analysis plots using plotly library,  pulled out top 20 tweets by stopwords ans bottom 20 tweets by stopwords as well. Created plots for finding out the most used punctuation marks and space words.
 Created ngran by using nltk library. The essential concepts in text mining is n-grams, which are a set of co-occurring or continuous sequence of n items from a sequence of large text or sentence.
 
-
+![](Picture2.png)
 # Machine Learning Models:
 
 I’m implemented BERT model to do tokenization, classification and prediction with using transformers. (Bidirectional Encoder Representations from Transformers is a technique for NLP pre-training developed by Google. BERT was created and published in 2018 by Jacob Devlin and his colleagues from Google. Google is leveraging BERT to better understand user searches. Wikipedia). For optimization and model comparison I’m have implimented Roberta model, Facebook AI open-sourced a new deep-learning natural-language processing (NLP) model, robustly-optimized BERT approach (RoBERTa). Based on Google's BERT pre-training model, RoBERTa includes additional pre-training improvements that achieve state-of-the-art results on several benchmarks.
@@ -36,6 +39,9 @@ I’m implemented BERT model to do tokenization, classification and prediction w
 # Results/Conclusions:
 
 Overall accuracy depending up on the optimization, training and data cleaning you do on the data. In this project I have implemented two approaches one with BERT PyTorch and other one with RoBERTa TensorFlow. RoBERTa TensorFlow with keras is easier to build and use in real time on the other hand PyTorch give you more flexibility and options, but we need to write more python code to get the result.
+
+![](Picture3.png)
+
 
 # References:
 
